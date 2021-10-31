@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;700&display=swap");
 body {
   background-color: black;
-  color: whitesmoke;
+  color: #f5f5f5;
 }
 
 body p {
-  font-family: 'Zen Kaku Gothic Antique Bold 700', sans-serif;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
 
 body h1, body h2, body h3 {
-  font-family: 'Zen Kaku Gothic Antique Bold 700', sans-serif;
+  font-family: "Zen Kaku Gothic Antique Bold 700", sans-serif;
 }
 
 .title {
@@ -30,7 +30,7 @@ body h1, body h2, body h3 {
 }
 
 .carousel-inner p {
-  color: white;
+  color: #f5f5f5;
   text-align: center;
 }
 
@@ -51,7 +51,7 @@ footer a {
 }
 
 footer a:hover {
-  color: white !important;
+  color: #f5f5f5 !important;
   -webkit-transition: all 1s;
   transition: all 1s;
 }
@@ -67,17 +67,31 @@ footer p {
 
 .accordion-item .accordion-button {
   background-color: black !important;
-  color: white;
+  color: #7c7c7c !important;
 }
 
-/* .accordion-button{
-    background-color: black !important;
-    color: white;
-    .accordion-button:not(.collapsed){
-        color: red !important;
-    }
-    .accordion-button:focus{
-        border: none !important;
-    }
-} */
+.accordion-item .accordion-button:hover {
+  color: #f5f5f5 !important;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.accordion-item .accordion-button:focus {
+  color: #f5f5f5 !important;
+}
+
+.dropdown-menu {
+  background-color: #7c7c7c !important;
+}
+
+.dropdown-menu .dropdown-item {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: transparent !important;
+  color: #f5f5f5 !important;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
 /*# sourceMappingURL=general.css.map */
