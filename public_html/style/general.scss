@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;700&display=swap');
+body{
+    background-color: black;
+    color: whitesmoke;
+    p{
+        font-family: 'Zen Kaku Gothic Antique Bold 700', sans-serif;
+    }
+    h1,h2,h3{
+        font-family: 'Zen Kaku Gothic Antique Bold 700', sans-serif;
+    }
+    
+}
+
+.title{
+    text-align:center;
+}
+
+.carousel-inner{
+    padding: 1rem;
+    margin-top: 1rem;
+    .bi{
+        display: block;
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 10%;
+    }
+    p{
+        color: rgb(255, 255, 255);
+        text-align:center;
+    }
+}
+
+footer{
+ 
+    padding: 1rem;
+    .bi{
+        padding-left: 1rem;
+        width: 10%;
+        height: 100%;
+        max-width: 45px;
+        min-width: 30px; 
+    }
+
+    a{
+        color: rgb(124, 124, 124) !important;
+    }
+
+    a:hover{
+        color: white !important;
+        transition: all 1s;
+    }
+    
+    p{
+        text-align: right;
+    }
+}
+.accordion-item{
+    border: none !important;
+    background-color: black !important;
+    .accordion-button{
+        background-color: black !important;
+        color: white;
+    }
+}
+
+
+/* .accordion-button{
+    background-color: black !important;
+    color: white;
+    .accordion-button:not(.collapsed){
+        color: red !important;
+    }
+    .accordion-button:focus{
+        border: none !important;
+    }
+} */

@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;700&display=swap");
+body {
+  background-color: black;
+  color: whitesmoke;
+}
+
+body p {
+  font-family: 'Zen Kaku Gothic Antique Bold 700', sans-serif;
+}
+
+body h1, body h2, body h3 {
+  font-family: 'Zen Kaku Gothic Antique Bold 700', sans-serif;
+}
+
+.title {
+  text-align: center;
+}
+
+.carousel-inner {
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.carousel-inner .bi {
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 10%;
+}
+
+.carousel-inner p {
+  color: white;
+  text-align: center;
+}
+
+footer {
+  padding: 1rem;
+}
+
+footer .bi {
+  padding-left: 1rem;
+  width: 10%;
+  height: 100%;
+  max-width: 45px;
+  min-width: 30px;
+}
+
+footer a {
+  color: #7c7c7c !important;
+}
+
+footer a:hover {
+  color: white !important;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+footer p {
+  text-align: right;
+}
+
+.accordion-item {
+  border: none !important;
+  background-color: black !important;
+}
+
+.accordion-item .accordion-button {
+  background-color: black !important;
+  color: white;
+}
+
+/* .accordion-button{
+    background-color: black !important;
+    color: white;
+    .accordion-button:not(.collapsed){
+        color: red !important;
+    }
+    .accordion-button:focus{
+        border: none !important;
+    }
+} */
+/*# sourceMappingURL=general.css.map */
