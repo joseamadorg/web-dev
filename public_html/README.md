@@ -25,9 +25,25 @@ Actualmente el proyecto se encuentra en la version 0.1.0 donde la finalidad de m
 
 ![image](./assets/portfolio.gif)
 
+>Tambien este proyecto es totalmente responsive mobile first gracias a Bootstrap.
+![image](./assets/responsive1.png)
+![image](./assets/responsive2.png)
+
+## `Paleta de colores`
+
+La paleta de colores es claramente una escala de grises pero poseé un color rosa saturado el cual logra un buen contraste pero no se exagera en su uso.
+-negro: #0000
+-blanco: #f5f5f5
+-gris: rgb(124, 124, 124)
+-gris oscuro: rgb(109,112,114)
+-rosado: #d63384
+
+## `Wireframes`
+
+Como complemento para documentación me parece importante adjuntar los wireframes diseñados previamente al desarrollo del proyecto. Se empleo el software balsamiq para su diseño.
 
 ## `Repositorio`
 
 El repositorio que se usa actualmente es GitHub donde se encuentra la ultima versión actualizada con commits en el branch master. El proyecto es de caracter público por lo que puede ser clonado por cualquier usuario.
 
-Para ingresar al repositorio hace [Click Aquí](hhttps://github.com/AngelMagaquian/CoderHouse/tree/master/magaquianecommerce)
+Para ingresar al repositorio hace [Click Aquí](https://github.com/AngelMagaquian/web-dev)
