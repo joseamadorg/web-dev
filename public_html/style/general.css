@@ -14,6 +14,18 @@ body h1, body h2, body h3 {
 
 .title {
   text-align: center;
+  padding: 1rem;
+}
+
+.externalLink {
+  color: #7c7c7c;
+  text-decoration: none;
+}
+
+.externalLink:hover {
+  color: #d63384;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .carousel-inner {
@@ -51,7 +63,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #f5f5f5 !important;
+  color: #d63384 !important;
   -webkit-transition: all 1s;
   transition: all 1s;
 }
@@ -71,7 +83,7 @@ footer p {
 }
 
 .accordion-item .accordion-button:hover {
-  color: #f5f5f5 !important;
+  color: #d63384 !important;
   -webkit-transition: all 1s;
   transition: all 1s;
 }
@@ -93,5 +105,54 @@ footer p {
   color: #f5f5f5 !important;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+}
+
+.card {
+  background-color: black;
+}
+
+.progress-bar {
+  background-color: #d63384 !important;
+}
+
+.textArea {
+  padding-bottom: 1rem !important;
+}
+
+.textArea .input-group-text {
+  background-color: #7c7c7c !important;
+  color: #f5f5f5 !important;
+  border: none !important;
+}
+
+.textArea textarea {
+  background-color: black !important;
+  color: #f5f5f5 !important;
+  border-color: #6d7072 !important;
+}
+
+.txtBox {
+  background-color: black !important;
+  color: #f5f5f5 !important;
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-radius: 0% !important;
+  border-color: #7c7c7c !important;
+}
+
+.form-check-input:checked {
+  background-color: #d63384 !important;
+  border-color: #d63384 !important;
+}
+
+.list-group {
+  padding-top: 1rem;
+}
+
+.list-group .list-group-item {
+  font-size: small !important;
+  background: none !important;
+  color: #d63384 !important;
 }
 /*# sourceMappingURL=general.css.map */

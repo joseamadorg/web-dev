@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="My personal portfolio have all my experience, education, skills, personal information and a contact section. Let's talk!.">
-    <meta name="keywords" content="WEB DEVELOPER, PORTFOLIO, CODE, FULLSTACK DEVELOPER, MAGAQUIAN, ANGEL MAGAQUIAN, CÓRDOBA, ARGENTINA,IES 21, CODER HOUSE">
+    <meta name="description" content="In order to communicate with me you can send me an email or any social network linked on this website.">
+    <meta name="keywords" content="LINKEDIN, EMAIL, WHATSAPP, INSTAGRAM, CONTACT">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style/general.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="../style/general.css">
+    <title>Contact</title>
 </head>
 <body>
    <header>
@@ -22,26 +22,27 @@
                         <div class="collapse navbar-collapse" id="navbarText">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                                    <a class="nav-link"  href="../index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="./section/experience.html">Experience</a>
+                                    <a class="nav-link" aria-current="page" href="./experience.html">Experience</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                       Education
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                      <li><a class="dropdown-item" href="./section/university.html">University</a></li>
+                                      <li><a class="dropdown-item" href="./university.html">University</a></li>
                                       <li><hr class="dropdown-divider"></li>
-                                      <li><a class="dropdown-item" href="./section/course.html">Courses</a></li>
+                                      <li><a class="dropdown-item" href="./course.html">Courses</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="./section/skills.html">Skills</a>
+                                    <a class="nav-link active"  aria-current="page" href="./skills.html">Skills</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="./section/contact.html">Contact</a>
+                                    <a class="nav-link" href="./contact.html">Contact</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -50,66 +51,72 @@
    </header>
 
    <section class="title">
-        <h1>Hello World</h1>
-        <p>FullStack Developer</p>
+        <h1>Contact</h1>
    </section>
 
-   <section class="about">
-        <div class="container-xl">
-            <div class="row align-items-center">
-                <div class="col-sm-6">
-                    <h2>About me</h2>
-                    <p>I'm junior software developer with a university degree in "Computer Systems Analyst" at IES21. I have two years of real developer work, personal and freelance projects. I'm a proactive person and enthusiast about agile methologies and continus learning. Now I'm living in Córdoba, Argentina.
-                        I'm a developer in Incluit working with Intel in OpenVINO developing uses case with artificial intelligence.</p>
-                </div>
-                <div class="col">
-                    <img src="assets/me.jpg" alt="personal photograph"  style=" width: 95%; margin: 1rem;">  
-                </div>
+   <section class="contact">
+       <div class="container">
+        <form>
+            <div class="row mb-3">
+              <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+              <div class="col-sm-10">
+                    <input type="text" class="form-control txtBox" id="inputName" required autocomplete="off">
+              </div>
             </div>
-        </div>
-   </section>
+            <div class="row mb-3">
+              <label for="inputCompany" class="col-sm-2 col-form-label">Company</label>
+              <div class="col-sm-10">
+                    <input type="text" class="form-control txtBox" id="inputCompany" autocomplete="off">
+              </div>
+            </div>
+            <div class="row mb-3">
+                <label for="inputLinkedin" class="col-sm-2 col-form-label">Linkedin profile</label>
+                <div class="col-sm-10">
+                      <input type="url" class="form-control txtBox" id="inputLinkedin" autocomplete="off">
+                </div>
+              </div>
+            <fieldset class="row mb-3">
+              <legend class="col-form-label col-sm-2 pt-0">How do you know me?</legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                  <label class="form-check-label" for="gridRadios1">
+                        Linkedin
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <label class="form-check-label" for="gridRadios2">
+                        This web page
+                  </label>
+                </div>
+                <div class="form-check disabled">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                  <label class="form-check-label" for="gridRadios3">
+                        Common contact
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+            <div class="row mb-3">
+              <div class="col-sm-10 offset-sm-2">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck1">
+                  <label class="form-check-label" for="gridCheck1">
+                    Do you want to be contacted on your LinkedIn profile?
+                  </label>
+                </div>
+              </div>
+            </div>
 
-   <section class="view">
-       <div class="container-fluid">
-           <div class="row">
-               <div class="col-sm-12">
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <h2>Quick View</h2>
-                            <div class="carousel-item active">
-                                <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-columns" viewBox="0 0 16 16">
-                                    <path d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V2zm8.5 0v8H15V2H8.5zm0 9v3H15v-3H8.5zm-1-9H1v3h6.5V2zM1 14h6.5V6H1v8z"/>
-                                </svg>
-                                <p>Front-end</p>
-                            </div>
-                            <div class="carousel-item">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-back" viewBox="0 0 16 16">
-                                    <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"/>
-                                </svg>
-                                <p>Back-end</p>
-                            </div>
-                            <div class="carousel-item">
-                                <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-server" viewBox="0 0 16 16">
-                                    <path d="M1.333 2.667C1.333 1.194 4.318 0 8 0s6.667 1.194 6.667 2.667V4c0 1.473-2.985 2.667-6.667 2.667S1.333 5.473 1.333 4V2.667z"/>
-                                    <path d="M1.333 6.334v3C1.333 10.805 4.318 12 8 12s6.667-1.194 6.667-2.667V6.334a6.51 6.51 0 0 1-1.458.79C11.81 7.684 9.967 8 8 8c-1.966 0-3.809-.317-5.208-.876a6.508 6.508 0 0 1-1.458-.79z"/>
-                                    <path d="M14.667 11.668a6.51 6.51 0 0 1-1.458.789c-1.4.56-3.242.876-5.21.876-1.966 0-3.809-.316-5.208-.876a6.51 6.51 0 0 1-1.458-.79v1.666C1.333 14.806 4.318 16 8 16s6.667-1.194 6.667-2.667v-1.665z"/>
-                                </svg>
-                                <p>Data bases</p>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-               </div>
-           </div>
+            <div class="input-group textArea">
+                <span class="input-group-text">Write a message</span>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
+            <button type="reset" class="btn btn-danger">Clear</button>
+            <button type="submit" class="btn btn-dark">Send</button>
+          </form>
        </div>
-        
    </section>
 
    <footer>
