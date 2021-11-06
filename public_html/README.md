@@ -23,7 +23,7 @@ como protfolio personal.
 
 Actualmente el proyecto se encuentra en la version 0.1.0 donde la finalidad de mostrar al usuario el contenido se puede cumplir de manera exitosa. 
 
-![](./assets/portfolio.gif)
+![image](./assets/portfolio.png)
 
 >Tambien este proyecto es totalmente responsive mobile first gracias a Bootstrap.
 ![image](./assets/responsive1.png)
