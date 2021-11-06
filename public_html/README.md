@@ -11,9 +11,9 @@ Este proyecto esta desarrollado con las tecnologias web basicas, por lo que es e
 -Bootstrap 5, puede ver la documentación de este framework haciendo [Click Aquí](https://getbootstrap.com/docs/5.0/getting-started/introduction/).
 
 -Bootstrap 5 fue implementado en el proyecto por medio de npm por lo que deberá instalarlo en su computadora si desea replicar este codigo, para ello siga los siguientes pasos:
-    >-Instalar y configurar `node` haciendo [Click Aquí](https://nodejs.org/en/). Se peude verificar la instalación con el comando `npm -v` en el CLI.
-
-    -Una vez instalado node, podemos clonar del repositorio el proyecto y abrirlo en nuestro editor de codigo.
+-Instalar y configurar `node` haciendo [Click Aquí](https://nodejs.org/en/). Se peude verificar la instalación con el comando `npm -v` en el CLI. Una vez instalado node, podemos clonar del repositorio el proyecto y abrirlo en nuestro editor de codigo.
+    
+    >git clone https://github.com/AngelMagaquian/web-dev.git
 
 ## `Sobre el proyecto`
 
@@ -23,7 +23,7 @@ como protfolio personal.
 
 Actualmente el proyecto se encuentra en la version 0.1.0 donde la finalidad de mostrar al usuario el contenido se puede cumplir de manera exitosa. 
 
-![image](./assets/portfolio.gif)
+![](./assets/portfolio.gif)
 
 >Tambien este proyecto es totalmente responsive mobile first gracias a Bootstrap.
 ![image](./assets/responsive1.png)
