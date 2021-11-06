@@ -40,7 +40,7 @@ La paleta de colores es claramente una escala de grises pero poseé un color ros
 
 ## `Wireframes`
 
-Como complemento para documentación me parece importante adjuntar los wireframes diseñados previamente al desarrollo del proyecto. Se empleo el software balsamiq para su diseño.
+Como complemento para documentación me parece importante adjuntar los wireframes diseñados previamente al desarrollo del proyecto. Se empleo el software balsamiq para su diseño. Para poder acceder se debe hacer [Click Aquí](https://drive.google.com/file/d/1DqDayEllOo0dxBlHxSsgOYPShR4aoVF9/view?usp=sharing) donde lo llevara a google drive donde se encuentra el documento en formato PDF.
 
 ## `Repositorio`
 
